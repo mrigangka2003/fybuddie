@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files — keep .env.example, ignore real env files
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/migrations/dev.db
+prisma/migrations/dev.db-journal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Exports (generated CSV files — not committed)
+exports/
+!exports/.gitkeep
+
+# TypeScript cache
+*.tsbuildinfo
+
+
+//docs
+self_review.md
+project_plan.md
